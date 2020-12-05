@@ -4,7 +4,7 @@ import "../styles/App.css";
 //import Home from "./home";
 //import Invalid from "./invalid";
 //import About from "./about";
-import LocationDisplayComponent from "./locationDisplayComponent";
+import LocationDisplayComponent from "./LocationDisplayComponent";
 function About() {
   return <div>You are on the about page</div>;
 }
