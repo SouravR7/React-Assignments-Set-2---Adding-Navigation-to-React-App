@@ -4,7 +4,7 @@ import "../styles/App.css";
 //import Home from "./home";
 //import Invalid from "./invalid";
 //import About from "./about";
-import LocationDisplay from "./locationdisplay";
+import LocationDisplayComponent from "./locationDisplayComponent";
 function About() {
   return <div>You are on the about page</div>;
 }
@@ -26,7 +26,7 @@ class App extends Component {
             <Route path="/" exact component={Home} />
             <Route path="/" component={Invalid} />
           </Switch>
-          <LocationDisplay />
+          <LocationDisplayComponent />
         </div>
       </>
     );
